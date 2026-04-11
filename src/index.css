@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #1D4ED8;
+  --color-accent-green: #25D366;
+  --color-soft-gray: #475569;
+  --color-brand-light: #EFF6FF;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    overscroll-behavior-x: none;
+  }
+  
+  body {
+    @apply bg-white text-soft-gray font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-slate-900 font-bold;
+  }
+}
+
+@layer utilities {
+  .drop-shadow-premium {
+    filter: drop-shadow(0 10px 15px rgba(37, 211, 102, 0.3));
+  }
+}
