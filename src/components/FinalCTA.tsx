@@ -31,7 +31,7 @@ export default function FinalCTA() {
       </motion.div>
 
       {/* Decorative Blob to complement gradient style */}
-      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-primary-blue/80 rounded-full blur-[140px] opacity-40 translate-x-1/2 -translate-y-1/4 pointer-events-none"></div>
+      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-brand-yellow/80 rounded-full blur-[140px] opacity-40 translate-x-1/2 -translate-y-1/4 pointer-events-none"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <motion.h2 

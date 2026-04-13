@@ -9,7 +9,7 @@ import StickyCTA from './components/StickyCTA';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white selection:bg-primary-blue selection:text-white font-sans antialiased overflow-x-hidden">
+    <div className="min-h-screen bg-white selection:bg-brand-yellow selection:text-white font-sans antialiased overflow-x-hidden">
       <Navbar />
       <main>
         <Hero />

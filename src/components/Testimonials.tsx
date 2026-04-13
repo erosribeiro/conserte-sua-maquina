@@ -57,10 +57,10 @@ export default function Testimonials() {
     <section id="avaliacoes" ref={containerRef} className="py-20 md:py-24 bg-white overflow-hidden relative">
       <motion.div style={{ y: yParallax }} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full mb-10 md:mb-16">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-brand-dark mb-4 tracking-tight">
             O que dizem sobre o meu trabalho
           </h2>
-          <p className="text-lg md:text-xl text-soft-gray leading-relaxed">
+          <p className="text-lg md:text-xl text-brand-dark leading-relaxed">
             Centenas de clientes já economizaram evitando a compra de uma máquina nova.
           </p>
         </div>
@@ -93,7 +93,7 @@ export default function Testimonials() {
                   loading="lazy"
                 />
                 <div>
-                  <h4 className="font-bold text-slate-900 text-base md:text-lg leading-tight">{t.name}</h4>
+                  <h3 className="font-bold text-brand-dark text-base md:text-lg leading-tight">{t.name}</h3>
                   <span className="text-xs md:text-sm text-slate-500 font-medium">{t.time}</span>
                 </div>
               </div>

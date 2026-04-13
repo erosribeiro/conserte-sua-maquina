@@ -15,23 +15,20 @@ export default function Navbar() {
         
         {/* Brand Icon left aligned */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={(e) => { e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); }}>
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" className="text-primary-blue">
-            <path d="M12 2L2 22h20L12 2z" fill="currentColor"/>
-            <path d="M12 8L6 18h12L12 8z" fill="#fff"/>
-          </svg>
+          <img src="/images/favicon-branco-removebg-preview.webp" alt="MM Refrigerações" className="h-12 w-auto object-contain" />
         </div>
 
         <div className="hidden md:flex flex-1 justify-center space-x-10">
-          <a href="#servicos" onClick={(e) => handleScrollTo(e, 'servicos')} className="font-semibold text-soft-gray hover:text-primary-blue transition-colors">Serviços</a>
-          <a href="#garantia" onClick={(e) => handleScrollTo(e, 'garantia')} className="font-semibold text-soft-gray hover:text-primary-blue transition-colors">Garantia</a>
-          <a href="#avaliacoes" onClick={(e) => handleScrollTo(e, 'avaliacoes')} className="font-semibold text-soft-gray hover:text-primary-blue transition-colors">Avaliações</a>
+          <a href="#servicos" onClick={(e) => handleScrollTo(e, 'servicos')} className="font-semibold text-brand-dark hover:text-brand-yellow transition-colors">Serviços</a>
+          <a href="#garantia" onClick={(e) => handleScrollTo(e, 'garantia')} className="font-semibold text-brand-dark hover:text-brand-yellow transition-colors">Garantia</a>
+          <a href="#avaliacoes" onClick={(e) => handleScrollTo(e, 'avaliacoes')} className="font-semibold text-brand-dark hover:text-brand-yellow transition-colors">Avaliações</a>
         </div>
 
         <a 
           href="https://wa.me/5511999999999" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="inline-flex bg-primary-blue text-white px-7 py-2.5 rounded-full font-bold hover:bg-blue-800 hover:-translate-y-0.5 transition-all shadow-lg hover:shadow-xl active:scale-95"
+          className="inline-flex bg-brand-yellow text-brand-dark px-7 py-2.5 rounded-full font-bold hover:brightness-110 hover:-translate-y-0.5 transition-all shadow-lg hover:shadow-xl active:scale-95"
         >
           Solicitar Orçamento
         </a>

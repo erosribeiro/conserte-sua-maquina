@@ -6,16 +6,16 @@ export default function Trust() {
 
   const tabs = [
     {
-      title: "Placas Eletrônicas",
-      desc: "Evite trocas desnecessárias. Reparo profundo e direto nas placas e painéis touch da sua máquina."
+      title: "Não liga ou trava?",
+      desc: "Sua máquina não liga ou trava o ciclo? Fazemos reparos precisos na placa eletrônica para você."
     },
     {
-      title: "Mecânica e Eixos",
-      desc: "Fim do barulho de avião e dos pulos na centrifugação. Troca de rolamentos, retentores e eixos desgastados."
+      title: "Trepidação e barulhos?",
+      desc: "Barulhos estranhos ou trepidação excessiva? Trocamos a mecânica completa com peças originais."
     },
     {
-      title: "Higienização",
-      desc: "Limpeza técnica completa do cesto e cuba. Elimina mau cheiro e resíduos presos na roupa."
+      title: "Limpeza Profunda",
+      desc: "Sujando as roupas? Limpeza técnica completa do cesto e cuba. Elimina mau cheiro e resíduos."
     }
   ];
 
