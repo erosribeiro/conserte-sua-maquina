@@ -13,8 +13,8 @@ export default function Features() {
       image: "/images/close-parafusos.webp"
     },
     {
-      title: "Garantia de 7 Dias",
-      desc: "Garantia plena de 7 dias com acompanhamento técnico imediato.",
+      title: "Garantia de 90 Dias",
+      desc: "Garantia completa de 3 meses em todas as peças originais e serviços realizados, com acompanhamento técnico imediato.",
       image: "/images/homem-consertando-maquina.webp"
     }
   ];
